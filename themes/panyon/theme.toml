@@ -1,0 +1,19 @@
+name = "Panyon"
+license = "MIT"
+licenselink = "https://github.com/panarchus/panyon/master/LICENSE.md"
+description = "Panyon is a theme based off of Lanyon [for Hugo] (in turn based off Lanyon for Jekyll)."
+homepage = "https://github.com/panarchus/panyon/"
+tags = ["blog",]
+features = ["blog",]
+min_version = 0.14
+
+[author]
+	name = "panarchus"
+
+[author]
+    name = "tummychow"
+
+[original]
+    author =  "mdo"
+    homepage = "https://github.com/poole/lanyon"
+    repo = "https://github.com/poole/lanyon"

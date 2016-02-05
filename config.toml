@@ -1,0 +1,26 @@
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "http://EveryRealm.io/"
+languageCode = "en-us"
+theme = "Panyon"
+pygmentsuseclasses = "true"
+
+[permalinks]
+    post = "/:section/:slug"
+
+[params]
+    Author = "Panarchus"
+    bio = "Budding Everyman"
+    location = "Neo-England"
+    site_description = "intersection of things"
+
+    # Format dates with Go's time formatting
+    DateForm = "2006-01-02"
+    Title = "Every Realm"
+    Tagline = "intersection of things"
+
+[params.Github]
+    Url = "http://github.com/panarchus"
+    Head = "master"
+
