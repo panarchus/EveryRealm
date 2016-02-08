@@ -1,18 +1,25 @@
-{{ partial "default_head.html" . }}
+{{ partial "default_index_head.html" . }}
 
 <!-- Space delimited list of page types -->
 {{ $paginator := .Paginate (where .Data.Pages "Type" "in" "post") }}
 
 <div class="posts">
   {{ range .Paginator.Pages }}
-    <div class="post">
+    <div class="container">
+      <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
-        {{ .Content }}
+        {{ .Summary }}
+        {{ if .Truncated }}
+          <div class="read-more-link">
+            <a href="{{ .RelPermalink }}">follow the signal...</a>
+          </div>
+        {{ end }}
+      </div>
     </div>
   {{ end }}
 </div>
-
+<!--
 <div class="pagination">
   {{ if $paginator.HasNext }}
   <a class="pagination-item older" href="{{ $paginator.Next.URL }}">Older</a>
@@ -26,5 +33,5 @@
   <span class="pagination-item newer">Newer</span>
   {{ end }}
 </div>
-
+-->
 {{ partial "default_foot.html" . }}

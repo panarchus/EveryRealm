@@ -11,6 +11,8 @@
  *
  * Designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/lanyon.
+ *
+ * Updated, edited, and used under MIT license by @panarchus.
  */
 
 
@@ -27,6 +29,15 @@
  * Themes
  */
 
+/*
+ * Panarchus Color scheme (for search-and-replace):
+ *    Main: ;
+ *    Header: ;
+ *    Sub-Header: ;
+ *    Content background: ;
+ *    Content: ;
+ */
+
 
 /*
  * Global resets
@@ -41,14 +52,14 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Calibri", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.05rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
 }
 
 
@@ -73,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
+  margin-bottom: 2rem;
   max-width: 28rem;
 }
 @media (min-width: 38em) {
@@ -96,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
@@ -306,10 +318,10 @@ a.sidebar-nav-item:focus {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* Blog post or page title */
@@ -369,7 +381,8 @@ a.sidebar-nav-item:focus {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
+  /*color: #ccc;*/
+  color: #808080; /* 50% black */
   text-align: center;
 }
 
@@ -377,7 +390,8 @@ a.sidebar-nav-item:focus {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 1px solid #eee;
+  /*border: 1px solid #eee;*/
+  border: 1px solid #808080;
 }
 .pagination-item:first-child {
   margin-bottom: -1px;
@@ -385,12 +399,13 @@ a.sidebar-nav-item:focus {
 
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
+  background-color: #808080;
 }
 
 @media (min-width: 30em) {
   .pagination {
-    margin: 3rem 0;
+    margin: 1rem 0;
   }
   .pagination-item {
     float: left;
@@ -441,6 +456,54 @@ a.pagination-item:hover {
  * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
 
+/* Panarchus' Theme: stardust (mono-chromatic grey) */
+.theme-pan-stardust .container {
+  /*border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;*/
+  background-color: #fff;
+  border:3px solid #333;
+}
+.theme-pan-stardust .masthead .container {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  margin-bottom: 0rem;
+}
+.theme-pan-stardust .sidebar,
+.theme-pan-stardust .sidebar-toggle:active,
+.theme-pan-stardust #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #333;
+}
+.theme-pan-stardust .masthead-title,
+.theme-pan-stardust .page-title,
+.theme-pan-stardust .post-title,
+.theme-pan-stardust .post-title a,
+.theme-pan-stardust .container a,
+.theme-pan-stardust .sidebar-toggle,
+.theme-pan-stardust .related-posts li a:hover {
+  color: #333;
+}
+.theme-pan-stardust .content {
+  color: #333;
+  line-height: 125%;
+}
+.theme-pan-stardust .post-date,
+.theme-pan-stardust .masthead-title small {
+  color: #808080;
+}
+
+.theme-pan-stardust .read-more-link {
+  position: relative;
+  left: 28rem;
+  padding-bottom: 1rem;
+}
+.theme-pan-stardust .read-more-link a {
+  padding: 0.25rem;
+  color: #808080;
+  border:3px solid #808080;
+}
+
+/* Default themes */
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
