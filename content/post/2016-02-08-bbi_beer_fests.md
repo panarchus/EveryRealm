@@ -36,15 +36,15 @@ All this beer collection is going to take time, and probably be limited in quant
 -  Latrine Street
 -  …
 
-Alright, not the best names ever made, so if you have any better ones let me know. That said, this is never going to happen - by me, anyways - because at this point in the discussion that my buddy had the best idea yet:
+Alright, not the best names ever made, so if you have any better ones let me know. That said, this is never going to happen - by me, anyways - because at this point in the discussion my buddy had the best idea yet:
 
 ### Idea 4: 
 It is simple, yet satisfying. It’s a marvelous concept that will revolutionize the beer-drinking world. Just follow these simple steps:
-Look up the Microbrews you’re interested in and see which ones are available near you (liquor stores).
 
-1.  Go to those liquor stores.
-2.  Buy the beer you want.
-3.  Go home.
+1.  Look up the Microbrews you’re interested in and see which ones are available near you (liquor stores).
+2.  Go to those liquor stores.
+3.  Buy the beer you want.
+4.  Go home.
 5.  Drink.
 
 Boom, baby! A beer festival at home, for your convenience! You don’t even need to advertise it: just shoot an mass text off to some of your friends, acquaintances, coworkers, people-you’re-interested-in-talking-about-politics-and-religion-with, ex-girlfriends, whoever and they’ll all come parading down your street. If you’re really conniving, you can charge a cover to your abode, but remember to send me a royalty check!
@@ -52,4 +52,5 @@ Boom, baby! A beer festival at home, for your convenience! You don’t even need
 **DISCLAIMER:** I’m far too lazy/poor to make any of the above (well, except that last one) happen but would definitely be a patron if someone else were to do all the heavy lifting. Make it happen!
 
 Cheers,
+
 Panarchus
