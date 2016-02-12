@@ -54,13 +54,13 @@ Clearly there is a bottomless pool of potential for this app. Here are some othe
   - They have a sick accent
   - They dress up in drag
   - They double as a great wing(wo)man
-  - Somebody to talk to when your randomized epithets immediately cause everyone in your near vicinity to quickly run away
+  - Somebody to talk to when your randomized epithets immediately cause everyone else in your near vicinity to quickly disperse
   - Additional pampering for extra fees
   - No tip required!
   - Additional tip required!
 
-At this point the point is made. I could continue to point out other pointers to the greatness of the Herald app, but any astute reader will have pointedly understood the nuances of all the prior points. Unfortunately, as one of my epithets clearly stated, I am a bum. The idea is up-for-grabs, free of charge! It’s up to you - *points through monitor in your direction* - to make it happen.
+At this point the point is made. I could continue to point out other pointers to the greatness of the Herald app, but any astute reader will have pointedly understood the nuances of all the prior points. Unfortunately, as one of my epithets clearly stated, I am a bum. The idea is up-for-grabs, free of charge! It’s up to you - *points through monitor at everyone in particular* - to make it happen.
 
 Cheers,
 
-Pointer-outer of grand ideas, Panarchus
+Point-out-er of grand ideas, Panarchus
