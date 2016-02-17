@@ -6,6 +6,8 @@ languageCode = "en-us"
 theme = "Panyon"
 pygmentsuseclasses = "true"
 
+disqusShortname = "Panarchus"
+
 [permalinks]
     post = "/:section/:slug"
 

@@ -1,4 +1,4 @@
-{{ partial "default_index_head.html" . }}
+{{ partial "default_head.html" . }}
 
 <!-- Space delimited list of page types -->
 {{ $paginator := .Paginate (where .Data.Pages "Type" "in" "post") }}
