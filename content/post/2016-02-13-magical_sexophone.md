@@ -1,9 +1,8 @@
 +++
 categories = ["music"]
-date = "2016-02-12T14:26:14-05:00"
+date = "2016-02-13T14:26:14-05:00"
 tags = ["music", "sex", "sax", "sexophone", "saxophone", "live"]
 title = "Live Music: The Magical Sexophone"
-draft=true
 +++
 
 Several weeks ago I went to quite possibly the diviest bar/venue I have ever seen. Granted, I don't get out too these kind of places much, so take my view with a tablespoon of salted caramel smothered over a hot, puffy pretzel. The place is a bit out-of-the-way, across the street from a pub I visit very occasionally. It's unassuming with nothing note-worthy anywhere nearby; I had never noticed it before. I walked in with my friend who brought me along just before 4pm on a mild Saturday afternoon.<!--more-->
