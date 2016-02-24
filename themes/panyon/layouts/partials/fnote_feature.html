@@ -1,0 +1,14 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+  jQuery.noConflict();
+  jQuery(function() {
+    jQuery(".reftext").hide();
+    jQuery(".refnum").click(function(event) {
+      jQuery(this.nextSibling).toggle();
+      event.stopPropagation();
+    });
+    jQuery("body").click(function(event) {
+      jQuery(".reftext").hide();
+    });
+  });
+</script>
