@@ -11,9 +11,7 @@ The other day (or month, whatever, *Time*, nobody likes you) my girlfriend and I
 * The Revenant
 
 I’m not here to review them but suffice it to say that I probably will<!--more--> not see them again anytime soon
-{{% fnote "[+]" %}}I lied, here is my official review(s): both movies were reasonably good and definitely entertaining. The gore in the Revenant actually bothered me a little more than the gore in the Hateful Eight, because it was far less ridiculous. Not that gore bothers, really. I felt both movies didn’t have much substance to them; perhaps they just had little… point? Direction? There are lacking imagination. I liked them both enough, but there are so many good films/shows to watch and no reason to devote time to watching these again in the foreseeable future. These are all my thoughts. That’s the problem.{{% /fnote %}}.
-
-This isn’t really about those movies anywho. So… we finished watching one at the theatre on a Friday night (y’know, it must’ve been the Revenant because I remember now that the Hateful Eight was so long we had to skip out on work a wee bit early in order watch it on a Wednesday {{% fnote %}}Like **delinquent badasses**. I mean, like **responsible adults**. I mean… like probably neither of those things.{{% /fnote %}}) and it was 9pm or so. We’re reasonably young, hip people and thought
+{{% fnote "[+]" %}}I lied, here is my official review(s): both movies were reasonably good and definitely entertaining. The gore in the Revenant actually bothered me a little more than the gore in the Hateful Eight, because it was far less ridiculous. Not that gore bothers, really. I felt both movies didn’t have much substance to them; perhaps they just had little… point? Direction? There are lacking imagination. I liked them both enough, but there are so many good films/shows to watch and no reason to devote time to watching these again in the foreseeable future. These are all my thoughts. That’s the problem.{{% /fnote %}}. This isn’t really about those movies anywho. So… we finished watching one at the theatre on a Friday night (y’know, it must’ve been the Revenant because I remember now that the Hateful Eight was so long we had to skip out on work a wee bit early in order watch it on a Wednesday {{% fnote %}}Like **delinquent badasses**. I mean, like **responsible adults**. I mean… like probably neither of those things.{{% /fnote %}}) and it was 9pm or so. We’re reasonably young, hip people and thought
 
 > Hey, you think any of our other reasonably young, hip friends would be down to chill at one of these conveniently-located-yet-indistinguishable-from-each-other bars near us?
 
@@ -43,7 +41,7 @@ Nobody showed{{% fnote %}}**WE ARE BORN ALONE AND WE WILL DIE ALONE AND IN THE M
 
 But we got to talking: how cool would it be if there was an app that let you simply send out a broadcast to select circles of friends with a one-line invite, or default simply to
 
-> Join me @ <place>! I’ll be there from \<start time\> to \<end time\>
+> Join me @ \<place\>! I’ll be there from \<start time\> to \<end time\>
 
 ? You could set up your *cough* - circles - in advance, and then easily select different circles to send the invite to. Integrate it with something that has… circles… to make it even easier. Or with Facebook - since people actually use that{{% fnote "[+]" %}}Allegedly. I have no problem with Google+ myself, of course, so please don’t drop my page rank!{{% /fnote %}} - and making them yourself could be very simple. You just want close friends to come over while you’re grilling? Cool. You going out and want to see anybody and everybody you’ve ever met and/or seen? Cool, no problem! You want to invite everyone you’ve never met, every strang-o and weird-er? Hmm… alright, I’ll allow it. It could be used for a random meetup like so, while constraints could be set geographically. Or something. Moving on...
 
