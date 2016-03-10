@@ -22,6 +22,9 @@ disqusShortname = "Panarchus"
     Title = "Every Realm"
     Tagline = "intersection of things"
 
+    # footnote default superscript
+    fnote_def = "[Editor's Note]"
+
 [params.Github]
     Url = "http://github.com/panarchus"
     Head = "master"
