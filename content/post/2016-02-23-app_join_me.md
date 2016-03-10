@@ -10,8 +10,7 @@ The other day (or month, whatever, *Time*, nobody likes you) my girlfriend and I
 * The Hateful Eight, or
 * The Revenant
 
-I’m not here to review them but suffice it to say that I probably will<!--more--> not see them again anytime soon
-{{% fnote "[+]" %}}I lied, here is my official review(s): both movies were reasonably good and definitely entertaining. The gore in the Revenant actually bothered me a little more than the gore in the Hateful Eight, because it was far less ridiculous. Not that gore bothers, really. I felt both movies didn’t have much substance to them; perhaps they just had little… point? Direction? There are lacking imagination. I liked them both enough, but there are so many good films/shows to watch and no reason to devote time to watching these again in the foreseeable future. These are all my thoughts. That’s the problem.{{% /fnote %}}. This isn’t really about those movies anywho. So… we finished watching one at the theatre on a Friday night (y’know, it must’ve been the Revenant because I remember now that the Hateful Eight was so long we had to skip out on work a wee bit early in order watch it on a Wednesday {{% fnote %}}Like **delinquent badasses**. I mean, like **responsible adults**. I mean… like probably neither of those things.{{% /fnote %}}) and it was 9pm or so. We’re reasonably young, hip people and thought
+I’m not here to review them but suffice it to say that I probably will not see them again anytime soon\*. This isn’t really about those movies anywho.<!--more--> So… we finished watching one at the theatre on a Friday night (y’know, it must’ve been the Revenant because I remember now that the Hateful Eight was so long we had to skip out on work a wee bit early in order watch it on a Wednesday{{% fnote %}}Like **delinquent badasses**. I mean, like **responsible adults**. I mean… like probably neither of those things.{{% /fnote %}}) and it was 9pm or so. We’re reasonably young, hip people and thought
 
 > Hey, you think any of our other reasonably young, hip friends would be down to chill at one of these conveniently-located-yet-indistinguishable-from-each-other bars near us?
 
@@ -59,3 +58,5 @@ Cheers,
 
 Panarchus
 
+
+\* I lied, here is my official review(s): both movies were reasonably good and definitely entertaining. The gore in the Revenant actually bothered me a little more than the gore in the Hateful Eight, because it was far less ridiculous. Not that gore bothers, really. I felt both movies didn’t have much substance to them; perhaps they just had little… point? Direction? There are lacking imagination. I liked them both enough, but there are so many good films/shows to watch and no reason to devote time to watching these again in the foreseeable future. These are all my thoughts. That’s the problem.
