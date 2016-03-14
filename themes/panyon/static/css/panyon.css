@@ -13,6 +13,7 @@
  * https://github.com/poole/lanyon.
  *
  * Updated, edited, and used under MIT license by @panarchus as panyon.
+ *
  */
 
 
@@ -606,6 +607,7 @@ a.pagination-item:hover {
  * In-place references
  *
  * Based off of the (joke) references used by http://what-if.xkcd.com
+ * Uses javascript/jquery for event handling
  */
 .ref {
   position: relative;
@@ -637,9 +639,6 @@ a.pagination-item:hover {
 
 /*
  * Themes
- *
- * Apply custom color schemes by adding the appropriate class to the `body`.
- * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
  */
 
 /* Panarchus' Theme: stardust (mono-chromatic grey) */
@@ -687,7 +686,8 @@ a.pagination-item:hover {
   border:3px solid #808080;
 }
 
-/* Default themes: example from Lanyon */
+
+/* Example theme from Lanyon */
 /* Red */
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,

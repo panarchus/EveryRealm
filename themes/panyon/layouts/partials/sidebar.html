@@ -10,21 +10,16 @@
   </div>
 
   <nav class="sidebar-nav">
-    <!-- TODO: make the names here configurable and find out a way to find ALL indices of
-               bottom directories available here, with title given in front matter..? -->
-    <a class="sidebar-nav-item {{ if eq .URL "/" }} active {{ end }}" href="/">Home</a>
-    <a class="sidebar-nav-item {{ if eq .URL "/post/" }} active {{ end }}" href="/post">Blog</a>
-
-    {{ $thisperma := .Permalink }}
-    {{ range .Site.Pages.ByWeight }}
-      {{ if isset .Params "sidebar" }}
-        <a class="sidebar-nav-item {{ if eq .Permalink $thisperma }} active {{ end }}" href="{{ .Permalink }}">{{ .Title }}</a>
-      {{ end }}
+    <!-- You can add what is in the sidebar straight from your config file -->
+    {{ $thisperma := .Permalink | relURL }}
+    {{ range sort .Site.Params.sidebar "weight" }}
+      {{ $thisurl := .url | relURL }}
+      <a class="sidebar-nav-item {{ if eq $thisurl $thisperma }} active {{ end }}" href="{{ .url }}">{{ .title }}</a>
     {{ end }}
 
-    <!--<a class="sidebar-nav-item" href="{{ .Site.Params.Github.Url }}/archive/{{ .Site.Params.Github.Head }}.zip">Download</a>-->
-    <a class="sidebar-nav-item" href="{{ .Site.Params.Github.Url }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently on {{ .Site.Params.Github.Head }}</span>
+    <!-- GitHub link -->
+    <a class="sidebar-nav-item" href="{{ .Site.Params.github.url }}">GitHub Project</a>
+    <span class="sidebar-nav-item">Currently on {{ .Site.Params.github.head }}</span>
   </nav>
 
   <div class="sidebar-item">

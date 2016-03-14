@@ -1,7 +1,7 @@
 +++
 date = "2016-02-02T09:23:59-05:00"
 title = "About"
-sidebar = true
+sidebar = false
 +++
 
 The Every Realm is the intersection of all planes of reality. Specifically my realities: things that I think about, things that I perceive, or things that I witness. 

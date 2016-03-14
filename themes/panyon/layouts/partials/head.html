@@ -16,8 +16,8 @@
   <!-- footnote feature -->
   {{ partial "fnote_feature.html" . }}
 
-  <!-- Google Analytics -->
-  {{ partial google_analytics.html . }}
+  <!-- Google Analytics; change tracking id in config "googleAnalytics" -->
+  {{ template "_internal/google_analytics.html" . }}
 
   <!-- CSS -->
   <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic' rel='stylesheet' type='text/css'>

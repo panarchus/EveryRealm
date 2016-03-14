@@ -1,12 +1,15 @@
+# Hugo internal
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 baseurl = "http://EveryRealm.io/"
 languageCode = "en-us"
 theme = "Panyon"
-pygmentsuseclasses = "true"
 
+# Hugo internal extras
+pygmentsuseclasses = "true"
 disqusShortname = "Panarchus"
+googleAnalytics = "UA-74040307-1"
 
 [permalinks]
     post = "/:section/:slug"
@@ -25,7 +28,22 @@ disqusShortname = "Panarchus"
     # footnote default superscript
     fnote_def = "[Editor's Note]"
 
-[params.Github]
-    Url = "http://github.com/panarchus"
-    Head = "master"
+[params.github]
+    url = "http://github.com/panarchus"
+    head = "master"
 
+# Things to appear in sidebar (weight determines order)
+# Note: add slash at end to allow highlighting when on the same page
+[params.sidebar]
+    [params.sidebar.Blog]
+        url = "/post/"
+        title = "Blog"
+        weight = "3"
+    [params.sidebar.About]
+        url = "/about/"
+        title = "About"
+        weight = "2"
+    [params.sidebar.Home]
+        url = "/"
+        title = "Home"
+        weight = "1"
