@@ -217,6 +217,19 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+/*
+ * Clearfix
+ *
+ * The Clearfix is applied to divs preceding floats that need to be 
+ * absolute. For example: summary posts on the index page
+ */
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
 
 /*
  * Wrapper
@@ -225,7 +238,6 @@ tbody tr:nth-child(odd) th {
  * use an outter wrap to position the sidebar without interferring with the
  * regular page content.
  */
-
 .wrap {
   position: relative;
   width: 100%;
@@ -476,7 +488,8 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-top: 1em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
+  overflow: visible;
 }
 
 /* Blog post or page title */
@@ -615,26 +628,52 @@ a.pagination-item:hover {
 }
 .refnum {
   position: relative;
-  left: 2px;
-  bottom: 1ex;
+  left: .25em;
+  padding-right: .1em;
+  bottom: .8em;
   font-size: .7em;
   text-decoration: underline;
   cursor: pointer;
 }
 .reftext {
-  font-size: .7em;
+  font-size: .8em;
   line-height: 1.1;
   display: block;
-  min-width: 20em;
+  min-width: 18em;
   position: absolute;
-  left: 25px;
-  bottom: 5px;
+  left: 2em;
+  bottom: 1.2em;
   border: 1px solid;
-  padding: 5px;
+  padding: .5em;
   background-color: #fff;
   word-wrap: break-word;
   z-index: 9999;
   overflow: auto;
+}
+
+/*
+ * Quick link to page
+ */
+.read-more-link {
+  float: right;
+  right: 1rem;
+  bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.read-more-link a {
+  padding: 0.25rem;
+  color: #808080;
+  border:3px solid #808080;
+}
+
+/*
+ * Social Media Plugs
+ */
+.social-media-plugs {
+  float: bottom;
+  right: 1rem;
+  bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 /*
@@ -663,27 +702,14 @@ a.pagination-item:hover {
 .theme-pan-stardust .post-title a,
 .theme-pan-stardust .container a,
 .theme-pan-stardust .sidebar-toggle,
-.theme-pan-stardust .related-posts li a:hover {
-  color: #333;
-}
+.theme-pan-stardust .related-posts li a:hover
 .theme-pan-stardust .content {
   color: #333;
 }
+
 .theme-pan-stardust .post-date,
 .theme-pan-stardust .masthead-title small {
   color: #808080;
-}
-
-.theme-pan-stardust .read-more-link {
-  position: absolute;
-  right: 1rem;
-  bottom: 1rem;
-  padding-bottom: 0rem;
-}
-.theme-pan-stardust .read-more-link a {
-  padding: 0.25rem;
-  color: #808080;
-  border:3px solid #808080;
 }
 
 

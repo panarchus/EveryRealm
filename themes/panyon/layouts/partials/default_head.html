@@ -2,10 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
   {{ partial "head.html" . }}
-  <!-- TODO: make classes configurable -->
-  <!-- add background image: background="/assets/green_cup.png" -->
-  <body class="sidebar-overlay theme-pan-stardust" background="/assets/stardust.png">
 
+  <!-- use config to change theme and background -->
+  {{ $theme := .Site.Params.style.theme }}
+  {{ $background := .Site.Params.style.background }}
+  <body class="sidebar-overlay {{ $theme }}" background="{{ $background }}">
+  <div id="fb-root"></div>
     {{ partial "sidebar.html" . }}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the

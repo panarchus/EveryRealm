@@ -1,6 +1,6 @@
 {{ partial "default_head.html" . }}
   <div class="content container">
-    <div class="post">
+    <div class="post clearfix">
       <h1 class="post-title">{{ .Title }}</h1>
       <span class="post-date">{{ .Date.Format .Site.Params.DateForm }}</span>
       {{ .Content }}

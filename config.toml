@@ -28,6 +28,13 @@ googleAnalytics = "UA-74040307-1"
     # footnote default superscript
     fnote_def = "[Editor's Note]"
 
+    # Twitter handle
+    twitter_handle = "panarchus"
+
+[params.style]
+    background = "/assets/mochaGrunge.png"
+    theme = "theme-pan-stardust"
+
 [params.github]
     url = "http://github.com/panarchus"
     head = "master"
