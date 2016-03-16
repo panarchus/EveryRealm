@@ -1,1 +1,3 @@
+
+<!-- Note that because span is used you cannot use non-inline HTML tags in the content -->
 <span class="ref"><span class="refnum">{{ with .Get 0 }}{{ . }}{{ else }}{{ .Page.Site.Params.fnote_def }}{{ end }}</span><span class="reftext">{{ .Inner }}</span></span>

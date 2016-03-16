@@ -628,23 +628,22 @@ a.pagination-item:hover {
 }
 .refnum {
   position: relative;
-  left: .25em;
-  padding-right: .1em;
-  bottom: .8em;
-  font-size: .7em;
+  padding-right: .05rem;
+  bottom: .5rem;
+  font-size: .6rem;
   text-decoration: underline;
   cursor: pointer;
 }
 .reftext {
-  font-size: .8em;
+  font-size: .7rem;
   line-height: 1.1;
   display: block;
-  min-width: 18em;
+  min-width: 12rem;
   position: absolute;
-  left: 2em;
-  bottom: 1.2em;
+  left: 1.25rem;
+  bottom: 1rem;
   border: 1px solid;
-  padding: .5em;
+  padding: .5rem;
   background-color: #fff;
   word-wrap: break-word;
   z-index: 9999;
@@ -699,12 +698,16 @@ a.pagination-item:hover {
 .theme-pan-stardust .masthead-title,
 .theme-pan-stardust .page-title,
 .theme-pan-stardust .post-title,
-.theme-pan-stardust .post-title a,
-.theme-pan-stardust .container a,
 .theme-pan-stardust .sidebar-toggle,
-.theme-pan-stardust .related-posts li a:hover
 .theme-pan-stardust .content {
   color: #333;
+}
+
+.theme-pan-stardust .post-title a,
+.theme-pan-stardust .container a,
+.theme-pan-stardust .related-posts li a:hover
+{
+  color: #007890;
 }
 
 .theme-pan-stardust .post-date,

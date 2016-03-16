@@ -2,7 +2,7 @@
 date = "2016-02-11T11:34:01-05:00"
 title = "Bad Business Ideas: Epithets and Heralds"
 tags = ["bad", "business", "idea", "herald", "app", "epithet"]
-categories = ["bad business ideas"]
+categories = ["bad business ideas", "apps"]
 +++
 
 Anyone who has read Homer knows what epithets are: long-winded, comma-strewn, title-chaining combinations of words that dubiously describe a character and precede any mention to said character if they have been gone for any more than five minutes. Much like the prior statement, they tend to get out of hand and can be difficult to even parse. More text was used in the Iliad for epithets than actual characters doing things (*citation needed*)! Here are some examples:<!--more-->
