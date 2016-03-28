@@ -617,6 +617,33 @@ a.pagination-item:hover {
 }
 
 /*
+ * Spoiler
+ * Based on: http://www.bloggersentral.com/2013/03/content-spoiler-with-simple-css3.html
+ */
+.spoilerbutton {
+  display: block;
+  margin: .25rem;
+}
+.spoiler {
+  width: 90%;
+  margin: 1rem;
+  overflow: hidden;
+  background: #e2e2ff; /* tint of purple */
+}
+.spoiler > div {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: margin 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: margin 0.2s ease;
+}
+.spoilerbutton[value="Show"] + .spoiler > div {
+  margin-top:-100%;
+}
+.spoilerbutton[value="Hide"] + .spoiler {
+  padding:5px;
+}
+
+/*
  * In-place references
  *
  * Based off of the (joke) references used by http://what-if.xkcd.com
@@ -679,7 +706,7 @@ a.pagination-item:hover {
  * Themes
  */
 
-/* Panarchus' Theme: stardust (mono-chromatic grey) */
+/* Panarchus' Theme: stardust (mono-chromatic grey + purple highlights) */
 .theme-pan-stardust .container {
   background-color: #fff;
   border:3px solid #333;
@@ -695,19 +722,20 @@ a.pagination-item:hover {
 .theme-pan-stardust #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #333;
 }
+
 .theme-pan-stardust .masthead-title,
 .theme-pan-stardust .page-title,
 .theme-pan-stardust .post-title,
-.theme-pan-stardust .sidebar-toggle,
 .theme-pan-stardust .content {
   color: #333;
 }
 
+.theme-pan-stardust .sidebar-toggle,
 .theme-pan-stardust .post-title a,
 .theme-pan-stardust .container a,
 .theme-pan-stardust .related-posts li a:hover
 {
-  color: #007890;
+  color: #434399; /* dark purple color for links */
 }
 
 .theme-pan-stardust .post-date,

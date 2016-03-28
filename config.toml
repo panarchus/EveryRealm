@@ -6,6 +6,8 @@ baseurl = "http://EveryRealm.io/"
 languageCode = "en-us"
 theme = "Panyon"
 
+Paginate = "10"
+
 # Hugo internal extras
 pygmentsuseclasses = "true"
 disqusShortname = "Panarchus"
@@ -32,7 +34,7 @@ googleAnalytics = "UA-74040307-1"
     twitter_handle = "panarchus"
 
 [params.style]
-    background = "/assets/mochaGrunge.png"
+    background = "/assets/stardust.png"
     theme = "theme-pan-stardust"
 
 [params.github]
