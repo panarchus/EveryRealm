@@ -619,28 +619,58 @@ a.pagination-item:hover {
 /*
  * Spoiler
  * Based on: http://www.bloggersentral.com/2013/03/content-spoiler-with-simple-css3.html
- */
-.spoilerbutton {
+ *
+input.spoiler-trigger {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+input.spoiler-trigger:checked + .spoiler {
   display: block;
-  margin: .25rem;
 }
+
 .spoiler {
-  width: 90%;
-  margin: 1rem;
-  overflow: hidden;
-  background: #e2e2ff; /* tint of purple */
+  background-color: #eee;
+  padding: 15px 30px;
+  margin: 10px 0px 0px;
+  display: none;
 }
-.spoiler > div {
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: margin 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: margin 0.2s ease;
+
+.spoiler-div:hover {
+  background: red;
 }
-.spoilerbutton[value="Show"] + .spoiler > div {
-  margin-top:-100%;
+*/
+.spoiler-text {
+  background-color: #eee;
+  padding: 15px 30px;
+  margin: 0px 0px 0px;
+  display: none;
 }
-.spoilerbutton[value="Hide"] + .spoiler {
-  padding:5px;
+
+.spoiler {
+  margin:4px;
+  background-color:#efefef;
+  border-radius:4px;
+  border:1px solid #d0d0d0;
+  overflow:auto;
+  margin-bottom: 20px;
+}
+.spoiler:hover {
+  background: #d9d9ee;  /* tint of purple */
+}
+.spoiler label {
+  width: 4em;
+  cursor: pointer;
+}
+.spoiler label span {
+  text-align: center;
+  padding: 3px 0px;
+  display: block;
+}
+
+.spoiler input:checked + span + div {
+  display: block;
 }
 
 /*
