@@ -1,10 +1,6 @@
 <div class="spoiler">
-	<label>
-		<input type="checkbox" hidden/>
-		<span>
-			{{ with .Get 0 }}{{ . }}{{ else }}SPOILER{{ end }}
-		</span>
-		<div class="spoiler-text">{{ .Inner }}</div>
-	</label>
-	
+	{{ $.Scratch.Add "spoiler-id" 1 }}
+	<label for="spoiler-{{ $.Scratch.Get "spoiler-id"}}"><span>{{ with .Get 0 }}{{ . }}{{ else }}WARNING: SPOILER ALERT!{{ end }}</span></label>
+	<input id="spoiler-{{ $.Scratch.Get "spoiler-id" }}" type="checkbox" hidden/>
+	<div class="spoiler-text">{{ .Inner }}</div>
 </div>
